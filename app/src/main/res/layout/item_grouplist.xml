@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/compose" />
+
+    <TextView
+        android:layout_marginStart="70dp"
+        android:layout_alignLeft="@+id/im1"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="เช็คชื่อกิจกรรมหน้าเสาธง"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_marginStart="70dp"
+        android:layout_alignLeft="@+id/im1"
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:text="ปวช"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>
+
